@@ -9,12 +9,7 @@ A simple retrieval-augmented generation (RAG) chatbot built with Streamlit, Lang
 - [Features](#features)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
-- [Configuration](#configuration)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Customizing](#customizing)
-- [Troubleshooting](#troubleshooting)
-- [License](#license)
+
 
 ---
 
@@ -40,16 +35,18 @@ A simple retrieval-augmented generation (RAG) chatbot built with Streamlit, Lang
 
 1. **Clone the repository**
 
-   ```bash
+   ```
    git clone https://github.com/yourusername/pdf-rag-streamlit.git
    cd pdf-rag-streamlit
 
 2. **Create & activate a virtual environment**
 
-    ```python3 -m venv venv
+    ```
+    python3 -m venv venv
     source venv/bin/activate          # macOS/Linux
     .\\venv\\Scripts\\activate        # Windows
 
 3. **Run the Streamlit app**
 
-    ```streamlit run streamlit_app.py
+    ```
+    streamlit run streamlit_app.py
